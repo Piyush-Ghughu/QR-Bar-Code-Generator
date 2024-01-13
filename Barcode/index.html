@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Add JsBarcode library -->
+
+</head>
+
+<body>
+
+    <h1>Barcode Generator</h1>
+    <label for="data">Enter Data:</label>
+    <input type="text" id="data">
+    <input type="range" id="size-control" min="50" max="500" step="1" value="200">
+    <button id="generate">Generate Barcode</button>
+    <button id="download">Download Barcode</button>
+    <svg id="barcode"></svg>
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.0/dist/JsBarcode.all.min.js"></script>
+    <!-- Add your JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
