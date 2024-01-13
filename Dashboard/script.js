@@ -1,3 +1,10 @@
+hamburger = document.querySelector(".hamburger");
+hamburger.onclick = function(){
+    navBar = document.querySelector(".navbar");
+    navBar.classList.toggle("active");
+
+}
+
 // Get necessary elements from the DOM
 const inputField = document.getElementById('data');
 const sizeControl = document.getElementById('size-control');

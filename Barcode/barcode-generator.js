@@ -4,5 +4,4 @@ hamburger.onclick = function () {
     navBar.classList.toggle("active"); 
 }
 
-// ja icche 
 
